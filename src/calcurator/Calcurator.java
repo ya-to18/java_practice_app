@@ -3,14 +3,16 @@ package calcurator;
 import java.util.Scanner;
 
 public class Calcurator {
+	/**
+	 * 計算を行う
+	 */
 	public void calculate() {
 		System.out.println("数値を入力してください。");
 		
 		Scanner sc = new Scanner(System.in);
 		int test = sc.nextInt();
 		System.out.println(test + "が入力されました。");
-		
-		
+		sc.close();
 	}
 	
 	/**
